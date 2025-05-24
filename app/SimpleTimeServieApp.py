@@ -4,7 +4,11 @@ app = Flask(__name__)
 
 @app.route('/',methods=["GET"])
 def get_time_and_ip():
-
+    """
+    Extracts client IP address and timestamp.
+    Returns:
+      The IP address of the client & timestamp.
+    """
     ip = request.headers.get('X-Forwarded-For', request.remote_addr)
     timestamp = datetime.now(timezone.utc)
     return jsonify({
