@@ -6,8 +6,8 @@ This repository solves the tasks associated with the problem statement for the D
 This project demonstrates how to deploy a simple web application that displays the current UTC time and the IP address of the visitor.
 
 It includes:
-- **Task 1:** Local deployment using Docker
-- **Task 2:** Cloud deployment using Terraform on AWS
+- **Task 1:** Minimalist Application Development / Docker / Kubernetes
+- **Task 2:** Terraform and Cloud: create the infrastructure to host your container
 
 ---
 
@@ -19,7 +19,7 @@ The goal is to:
 
 ---
 
-#  Task 1: Local Docker-Based Deployment
+#  Task 1: Minimalist Application Development / Docker / Kubernetes
 
 ###  Prerequisites
 
